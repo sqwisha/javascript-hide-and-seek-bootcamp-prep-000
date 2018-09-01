@@ -25,7 +25,7 @@ function deepestChild() {
     return deeperChild[0];
 }
 
-/* also used this but IDE was Passing me but not letting me proceed, so idk what's preferable:
+/* IDE test was passing me using this code, but not letting me proceed, so idk what's preferable:
 
 function deepestChild() {
     const deepChild = document.querySelector('#grand-node');
@@ -34,3 +34,4 @@ function deepestChild() {
     var theDeepestChild = deeperChild[deeperChild.length - 1];
 
     return theDeepestChild;
+}
