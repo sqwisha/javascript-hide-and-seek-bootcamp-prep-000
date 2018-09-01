@@ -24,3 +24,13 @@ function deepestChild() {
     }
     return deeperChild[0];
 }
+
+/* IDE test was passing me using this code, but not letting me proceed, so I'm not sure what's preferable (this is less verbose/demands less of the JS engine but it seemed like y'all wanted a loop):
+
+function deepestChild() {
+    const deepChild = document.querySelector('#grand-node');
+    var deeperChild = deepChild.querySelectorAll('div');
+
+    return deeperChild[deeperChild.length - 1];
+}
+*/
