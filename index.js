@@ -31,8 +31,6 @@ function deepestChild() {
     const deepChild = document.querySelector('#grand-node');
     var deeperChild = deepChild.querySelectorAll('div');
 
-    var theDeepestChild = deeperChild[deeperChild.length - 1];
-
-    return theDeepestChild;
+    return deeperChild[deeperChild.length - 1];
 }
 */
