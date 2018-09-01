@@ -27,3 +27,10 @@ function deepestChild() {
 
 /* also used this but IDE was Passing me but not letting me proceed, so idk what's preferable:
 
+function deepestChild() {
+    const deepChild = document.querySelector('#grand-node');
+    var deeperChild = deepChild.querySelectorAll('div');
+
+    var theDeepestChild = deeperChild[deeperChild.length - 1];
+
+    return theDeepestChild;
