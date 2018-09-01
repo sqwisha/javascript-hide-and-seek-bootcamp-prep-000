@@ -24,3 +24,6 @@ function deepestChild() {
     }
     return deeperChild[0];
 }
+
+/* also used this but IDE was Passing me but not letting me proceed, so idk what's preferable:
+
